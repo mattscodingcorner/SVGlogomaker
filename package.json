@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "jest": "^29.6.3"
-  }
+  },
+  "scripts": {
+    "test": "jest"
+}
 }
