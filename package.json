@@ -7,14 +7,11 @@
     "example": "examples",
     "lib": "lib"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.10"
+    "inquirer": "^8.2.4"
   },
   "devDependencies": {
     "jest": "^29.6.3"
