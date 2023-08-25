@@ -27,7 +27,7 @@ async function main() {
         const svgContent = generateSVG(objectShape, color, text);
 
         // Save the SVG content to a file
-        fs.writeFile('output.svg', svgContent, (err) => {
+        fs.writeFile('logo.svg', svgContent, (err) => {
             if (err) {
                 console.error('Error writing SVG file:', err);
                 return;
