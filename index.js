@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 async function main() {
-    const {shape, color, text} = await inquirer.prompt(getUserInput) 
+    const {shape, color, text, textColor} = await inquirer.prompt(getUserInput) 
         let objectShape;
 
         switch (shape) {
@@ -22,7 +22,8 @@ async function main() {
                 console.log('Invalid shape choice');
                 return;
         }
-
+        objectShape.setText(text);    
+        objectShape.setTextColor(textColor);
         objectShape.setColor(color);
         const svgContent = generateSVG(objectShape, color, text);
 
