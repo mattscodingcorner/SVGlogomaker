@@ -31,6 +31,7 @@ This project is licensed under the MIT License.
 - ![inquirer](https://www.npmjs.com/package/inquirer)
 - ![jest](https://www.npmjs.com/search?q=jest)
 - ![mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
+- Shout out to TA Dane for the big help with fixing the index.js and my userInput.js files as object modifiers. Big help
 
 ## Questions
 
